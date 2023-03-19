@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> filter styles</title>
+<style>
+		h1{
+		  background-color:pink;
+		  color:green;
+		  text-align:center;
+		}
+		   .ex-blur{
+		   filter:blur(10px);
+		   margin:20px 90px;
+		   }
+		  
+		   .brightness{
+		   filter:brightness(500%);
+		    margin:20px 90px;
+		   }
+		   .contrast{
+			 filter:contrast(50%);
+			  margin:20px 90px;
+		   }
+		   .g-scale{
+		   filter:grayscale(100%);
+		    margin:20px 90px;
+		   }
+		   .rotate{
+		   filter:hue-rotate(200deg);
+		    margin:20px 90px;
+		   }
+		   .opacity{
+		   filter:opacity(40%);
+		    margin:20px 90px;
+		   }
+		   .invert{
+		   filter:invert(150%);
+		    margin:20px 90px;
+		   }
+		   .saturate{
+		   filter:saturate(250%);
+		    margin:20px 90px;
+		   }
+			.sepia{
+			filter:sepia(300%);	
+			 margin:20px 90px;
+			}
+			.drop-shadow{
+			filter:drop-shadow(-30px -30px 100px red);
+			 margin:20px 90px;
+			}
+			.multi-filter{
+			  filter:contrast(200%) brightness(150%);
+			   margin:20px 90px;
+			}
+	</style>
+	</head>
+			<body>
+				<div>
+				<h1> BLUR </h1>
+				<image src="images/butterfly.jpg">
+				<image class="ex-blur" src="images/butterfly.jpg" >
+				<h2 class="ex-blur"> BEAUTIFUL </h2>
+			</div>
+			 <div>
+				<h1> BRIGHTNESS </h1>
+				<image src="images/butterfly.jpg">
+				<image class="brightness" src="images/butterfly.jpg" >
+			</div>
+			  <div>
+				<h1> CONTRAST </h1>
+				<image src="images/butterfly.jpg">
+				<image class="contrast" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> GRAY-SCALE </h1>
+				<image src="images/butterfly.jpg">
+				<image class="g-scale" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> HUEROTATE </h1>
+				<image src="images/butterfly.jpg">
+				<image class="rotate" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> opacity </h1>
+				<image src="images/butterfly.jpg">
+				<image class="opacity" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> INVERT </h1>
+				<image src="images/butterfly.jpg">
+				<image class="invert" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> SATURATE </h1>
+				<image src="images/butterfly.jpg">
+				<image class="saturate" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> SEPIA </h1>
+				<image src="images/butterfly.jpg">
+				<image class="sepia" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> DROP-SHADOW </h1>
+				<image src="images/butterfly.jpg">
+				<image class="drop-shadow" src="images/butterfly.jpg" >
+			</div>
+			<div>
+				<h1> MULTI-FILTER </h1>
+				<image src="images/butterfly.jpg">
+				<image class="multi-filter" src="images/butterfly.jpg" >
+			</div>
+</body>
+
+</html>
